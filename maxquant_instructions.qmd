@@ -27,6 +27,7 @@ For statistical analysis of MaxQuant output, we offer the [Perseus](perseus_inst
 -   [First steps in MaxQuant](MQ_FirstSteps.html)
 -   [Viewer](viewer_instructions.html)
 -   [Andromeda](andromeda_instructions.html)
+-   [PTMs](PTMs.html) 
 -   [Output Tables](output_tables.html)
 -   [Google groups](https://groups.google.com/g/maxquant-list?pli=1)
 -   [maxquant Bug reporting](https://github.com/cox-labs/CoxLab_Bug_Reporting)

@@ -1,0 +1,61 @@
+---
+title: "PTMs - Post Translational Modifications"
+author: "Cox Lab"
+format: 
+  html:
+    toc: true
+    toc-depth: 4
+    toc-expand: false
+    number-sections: true
+    number-depth: 4
+editor: source
+date: today
+bibliography: references.bib
+csl: nature.csl
+---
+
+This page presents an analysis of modifications in MaxQuant, highlighting how they are detected, quantified, and interpreted in proteomic datasets.
+
+
+# Documentation outline
+
+-   PTMs (On this page)
+-   Sequence Based Modifiers in [MaxSBM](MaxSBM.html)
+-   [Analysis with Perseus](modifications.html)
+
+# PTM analysis in MaxQuant
+As a first step towards understanding the complex circuitry of signalling processes, the post-translational modifications (PTMs) should be identified and quantified in an unbiased and global manner. For this purpose, modern quantitative mass spectrometry has proved to be an ideal platform because it is a highly precise yet generic method for detecting PTMs. Despite the impressive progress in MS-based PTM proteomics, exhaustive mapping of protein modifications is challenging for a number of reasons: 
+
+(i) Modified peptides are present in sub-stoichiometric amounts in complex mixtures. 
+(ii) Peptides carrying certain PTMs display more complicated MS/MS fragmentation patterns that can be difficult to interpret.
+(iii) The effective database search space explodes when the search program is allowed to consider potential PTMs at each modifiable amino acid residue.
+(iv) In addition to identifying the modified peptide, the PTM needs to be placed (localized) with single amino acid accuracy in the sequence. 
+
+The talks below will provide an overview of the whole computational PTM proteomics workflow concerned with the identification of modified peptides, localization and occupancy of the identified modifications and generation of quantitative values for modified sites and peptides from the raw data.
+
+# Lectures and tutorials
+
+Lecture - From our 2019 MaxQuant Summer School: 
+
+{{< video https://www.youtube.com/watch?v=fdd9MPt2sAU >}}
+
+Lecture - From our 2024 MaxQuant Summer School 
+
+{{< video https://www.youtube.com/watch?v=sbhoDTEueUk >}}
+
+Lecture - From our 2024 MaxQuant Summer School 
+
+{{< video https://www.youtube.com/watch?v=kuhKel803xk >}}
+
+Tutorial - From our 2024 MaxQuant Summer School 
+
+{{< video https://www.youtube.com/watch?v=SXfYl6lh324 >}}
+
+Lecture -From our 2025 MaxQuant Summer School 
+
+{{< video https://www.youtube.com/watch?v=QWF4afyPv-o >}}
+
+
+
+
+
